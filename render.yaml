@@ -1,0 +1,5 @@
+services:
+  - type: static
+    name: hkaffoundation
+    buildCommand: npm run build
+    staticPublishPath: dist
